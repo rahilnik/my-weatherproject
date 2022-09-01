@@ -1,0 +1,43 @@
+.weatherapp {
+    border: 1px solid #dadde1;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+  }
+    h1 {
+      padding-top: 0;
+      padding-left: 10px;
+      color: blueviolet;
+      font-size: 10px;
+      margin: auto;
+    }
+    h2 {
+      padding-top: 50px;
+      color: darkslategray;
+    }
+    span {
+      color: darkgray;
+      font-size: 18px;
+    }
+    form{
+      padding-bottom: 20px;
+    }
+    .weather-forecast {
+      margin-top: 20px;
+      text-align: center;
+      color: #000;
+    }
+    
+    .weather-forecast-date {
+      font-size: 16px;
+      opacity: 0.5;
+    }
+    
+    .weather-forecast-temperature-min {
+      opacity: 0.5;
+    }
+    
+    .weather-forecast-temperatures {
+      font-size: 13px;
+    }
