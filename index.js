@@ -1,10 +1,10 @@
-var now = new Date();
+var date= new Date();
 
-let hours = now.getHours();
+let hours = date.getHours();
 if (hours < 10) {
   hours = `0${hours}`;
 }
-let minutes = now.getMinutes();
+let minutes = date.getMinutes();
 if (minutes < 10) {
   minutes = `0${minutes}`;
 }
@@ -18,7 +18,7 @@ let days = [
   "Friday",
   "Saturday"
 ];
-var day = days[now.getDay()];
+let day = days[date.getDay()];
 let h3 = document.querySelector("h3");
 h3.innerHTML = `today is ${day} ${hours}:${minutes}`;
 function displayForecast() {
