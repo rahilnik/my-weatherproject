@@ -21,7 +21,8 @@ let days = [
 let day = days[date.getDay()];
 let h3 = document.querySelector("h3");
 h3.innerHTML = `today is ${day} ${hours}:${minutes}`;
-function displayForecast() {
+function displayForecast(response) {
+  let forecast = response.data.daily;
   let forecastElement = document.querySelector("#forecast");
 
   let days = ["Thu", "Fri", "Sat", "Sun"];
