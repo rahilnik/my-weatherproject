@@ -53,7 +53,7 @@ function displayForecast() {
 function getforecst(coordinates){
   console.log(coordinates);
   let apiKey = "c95d60a1e3adbeb286133f1ebebc2579"
-  let apiUrl = `https://api.openweathermap.org/data/2.5 /onecall?lat=${cordinates.lat}&lon=${cordinates.lon}&appid=${apiKey}&units=metric`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5 /onecall?lat=${cordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayForecast);
   
 }
