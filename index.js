@@ -43,7 +43,7 @@ let forecast = respons.data.daily;
         <div class="weather-forecast-date">${forecastday.dt}</div>
         <img
           src="http://openweathermap.org/img/wn/${
-            forecastdaytDay.weather[0].icon
+            forecastday.weather[0].icon
           }@2x.png"
           alt=""
           width="42"
@@ -123,4 +123,4 @@ let fahrenheitlink = document.querySelector("#fahrenheit-link");
 fahrenheitlink.addEventListener("click", displayfahrenheittemperature);
 let celsiuslink = document.querySelector("#celsius-link");
 celsiuslink.addEventListener("click", displaycelsuistemperature);
-displayForecast();
+//displayForecast();
