@@ -130,3 +130,4 @@ fahrenheitlink.addEventListener("click", displayfahrenheittemperature);
 let celsiuslink = document.querySelector("#celsius-link");
 celsiuslink.addEventListener("click", displaycelsuistemperature);
 //displayForecast();
+searchcity("kermanshah");
